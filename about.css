@@ -1,0 +1,10 @@
+.container1{
+    display: flex;
+    color: black;
+    justify-content: center;
+    padding: 10px; 
+    /* background-color: aquamarine; */
+}
+.image{
+    margin-top: 40px;
+}
