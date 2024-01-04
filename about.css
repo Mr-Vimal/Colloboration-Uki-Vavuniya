@@ -1,3 +1,6 @@
+*{
+    margin:10px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
@@ -140,6 +143,7 @@ a::before {
 a:hover::before { 
     border-color:rgb(10, 10, 37); 
     transform: rotate(60deg); 
+  
 }   
 .btn--download{
     padding: 16px 32px;
@@ -152,3 +156,19 @@ a:hover::before {
     animation: fade-up 0.5s 0.4s backwards;
     border-radius: 69px;
     }
+
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.text{
+    font-size: 25px;
+    width: 600px;
+    text-align: justify;
+}
+.img img{
+    width: 900px;
+    border-radius: 20px;
+
+}
