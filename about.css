@@ -6,8 +6,8 @@ body {
 
 a { 
     position: absolute; 
-    top: 88%; 
-    left: 60%; 
+    top: 89%; 
+    left: 49%;
     transform: translate(-50%, -50%); 
     width: 110px; 
     height: 40px; 
@@ -28,7 +28,7 @@ a::before {
     left: 0; 
     bottom: 0; 
     border-style: solid; 
-    border-color: goldenrod; 
+    border-color: rgb(198, 74, 74); 
     border-width: 80px 100px; 
     z-index: -1; 
     transform: rotate(360deg); 
@@ -49,6 +49,6 @@ a:hover::before {
     z-index: 100;
     box-shadow: 0 6px 23px rgba(0, 0, 0, 0.45);
     animation: fade-up 0.5s 0.4s backwards;
-    border-radius: 60px;
+    border-radius: 69px;
     }
 
