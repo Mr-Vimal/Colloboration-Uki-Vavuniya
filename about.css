@@ -1,10 +1,18 @@
-.container1{
-    display: flex;
+*{
+    margin:10px;
 }
-.image{
-    width: 50px;
-    height: 80px;
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
 }
+.text{
+    font-size: 25px;
+    width: 600px;
+    text-align: justify;
+}
+.img img{
+    width: 900px;
+    border-radius: 20px;
 
-
+}
     
