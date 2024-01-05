@@ -1,3 +1,4 @@
+
 *{
     margin:10px;
 }
@@ -102,6 +103,59 @@ ul li a:hover{
 span{
     color: wheat;
 }
+footer {
+   text-align: center;
+   padding:1em 0;
+   background-color: #333;
+   color: #fff;
+
+}
+
+footer span{
+   color: #fd4766;
+}
+
+.footertop{
+   background-color:  #d7e2f7;
+}
+
+.icons2{
+   padding-left: 790px;
+}
+.fa-facebook{
+   font-size: 50px;
+   color: blue;
+   padding: 15px;
+}
+
+.fa-instagram{
+   font-size: 50px;
+   color:rgb(231, 6, 81);
+   padding: 15px;
+}
+.fa-twitter{
+   font-size: 50px;
+   color: rgb(8, 174, 240);
+   padding:15px;
+}
+.fa-linkedin{
+   font-size: 50px;
+   color: rgb(29, 29, 240);
+   padding: 15px;
+}
+
+.icons{
+   display: flex;
+   justify-content: center;
+   padding-left: 210px;
+   
+}
+.icons{
+   padding-top: 30px;
+}
+
+
+}
 
 body { 
     padding: 0; 
@@ -172,3 +226,4 @@ a:hover::before {
     border-radius: 20px;
 
 }
+
